@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="white"/>
+
+  <g fill="white" stroke="black" stroke-width="11"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Sunflower petals -->
+    <g transform="translate(400 300)">
+      <ellipse cx="0" cy="-135" rx="48" ry="85"/>
+      <ellipse cx="0" cy="-135" rx="48" ry="85" transform="rotate(45)"/>
+      <ellipse cx="0" cy="-135" rx="48" ry="85" transform="rotate(90)"/>
+      <ellipse cx="0" cy="-135" rx="48" ry="85" transform="rotate(135)"/>
+      <ellipse cx="0" cy="-135" rx="48" ry="85" transform="rotate(180)"/>
+      <ellipse cx="0" cy="-135" rx="48" ry="85" transform="rotate(225)"/>
+      <ellipse cx="0" cy="-135" rx="48" ry="85" transform="rotate(270)"/>
+      <ellipse cx="0" cy="-135" rx="48" ry="85" transform="rotate(315)"/>
+
+      <!-- Centre -->
+      <circle cx="0" cy="0" r="95"/>
+
+      <!-- Face -->
+      <circle cx="-32" cy="-15" r="9" fill="black"/>
+      <circle cx="32" cy="-15" r="9" fill="black"/>
+      <path d="M-35 25 Q0 65 35 25" fill="none"/>
+    </g>
+
+    <!-- Stem -->
+    <path d="M390 395 L390 640 L410 640 L410 395 Z"/>
+
+    <!-- Left leaf -->
+    <path d="M395 520 Q290 430 230 500
+             Q280 590 395 550 Z"/>
+    <path d="M390 540 L275 510" fill="none"/>
+
+    <!-- Right leaf -->
+    <path d="M405 590 Q500 490 570 550
+             Q520 640 405 615 Z"/>
+    <path d="M415 605 L535 565" fill="none"/>
+
+    <!-- Ground -->
+    <path d="M180 650 Q400 620 620 650" fill="none"/>
+
+  </g>
+
+  <text x="400" y="730" text-anchor="middle"
+        font-size="43" font-family="Arial"
+        fill="black">MY HAPPY SUNFLOWER</text>
+</svg>

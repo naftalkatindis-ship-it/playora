@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="white"/>
+
+  <g fill="white" stroke="black" stroke-width="11"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Mast -->
+    <path d="M400 150 L400 480" fill="none"/>
+
+    <!-- Large sail -->
+    <path d="M385 180 L385 410 L180 410 Z"/>
+
+    <!-- Small sail -->
+    <path d="M415 220 L415 410 L590 410 Z"/>
+
+    <!-- Boat deck -->
+    <path d="M150 460 L680 460"/>
+
+    <!-- Boat body -->
+    <path d="M150 460 L680 460 L590 570
+             Q570 600 530 600 L280 600
+             Q240 600 220 570 Z"/>
+
+    <!-- Cabin -->
+    <path d="M320 460 L350 390 L490 390 L530 460 Z"/>
+
+    <!-- Cabin window -->
+    <rect x="390" y="410" width="55" height="40" rx="8"/>
+
+    <!-- Water waves -->
+    <path d="M100 640 Q150 610 200 640
+             Q250 670 300 640
+             Q350 610 400 640
+             Q450 670 500 640
+             Q550 610 600 640
+             Q650 670 700 640"
+          fill="none"/>
+
+  </g>
+
+  <text x="400" y="720" text-anchor="middle"
+        font-size="44" font-family="Arial"
+        fill="black">MY LITTLE BOAT</text>
+</svg>

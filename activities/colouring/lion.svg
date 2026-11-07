@@ -1,0 +1,65 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="white"/>
+
+  <g fill="white" stroke="black" stroke-width="10"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Lion's mane -->
+    <path d="M400 115
+      C455 115 485 150 515 165
+      C575 145 625 195 620 250
+      C680 285 675 350 650 390
+      C690 455 650 510 615 530
+      C625 600 565 640 510 625
+      C465 690 405 680 370 650
+      C310 685 250 645 245 610
+      C175 600 145 550 175 495
+      C120 445 135 385 155 350
+      C120 285 160 235 205 215
+      C215 155 285 125 330 155
+      C350 130 375 115 400 115 Z"/>
+
+    <!-- Face -->
+    <path d="M400 205
+      C500 205 570 280 565 385
+      C560 490 495 555 400 555
+      C305 555 240 490 235 385
+      C230 280 300 205 400 205 Z"/>
+
+    <!-- Ears -->
+    <circle cx="275" cy="270" r="45"/>
+    <circle cx="525" cy="270" r="45"/>
+
+    <!-- Eyes -->
+    <ellipse cx="345" cy="365" rx="13" ry="18" fill="black"/>
+    <ellipse cx="455" cy="365" rx="13" ry="18" fill="black"/>
+
+    <!-- Nose -->
+    <path d="M370 430 Q400 410 430 430
+      Q400 465 370 430 Z"/>
+
+    <!-- Mouth -->
+    <path d="M400 450 Q390 485 365 480" fill="none"/>
+    <path d="M400 450 Q410 485 435 480" fill="none"/>
+
+    <!-- Cheeks -->
+    <circle cx="320" cy="435" r="28"/>
+    <circle cx="480" cy="435" r="28"/>
+
+    <!-- Whiskers -->
+    <path d="M290 430 L220 410 M290 455 L220 465" fill="none"/>
+    <path d="M510 430 L580 410 M510 455 L580 465" fill="none"/>
+
+    <!-- Mane decorations -->
+    <circle cx="190" cy="320" r="16"/>
+    <circle cx="610" cy="320" r="16"/>
+    <circle cx="250" cy="570" r="15"/>
+    <circle cx="550" cy="570" r="15"/>
+
+  </g>
+
+  <text x="400" y="745" text-anchor="middle"
+        font-size="38" font-family="Arial"
+        fill="black">MY LITTLE LION</text>
+</svg>

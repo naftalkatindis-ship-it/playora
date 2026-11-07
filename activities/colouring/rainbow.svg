@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="white"/>
+
+  <g fill="white" stroke="black" stroke-width="11"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Rainbow arches -->
+    <path d="M180 430 A220 220 0 0 1 620 430"
+          fill="none" stroke-width="22"/>
+
+    <path d="M225 430 A175 175 0 0 1 575 430"
+          fill="none" stroke-width="22"/>
+
+    <path d="M270 430 A130 130 0 0 1 530 430"
+          fill="none" stroke-width="22"/>
+
+    <path d="M315 430 A85 85 0 0 1 485 430"
+          fill="none" stroke-width="22"/>
+
+    <!-- Left cloud -->
+    <path d="M120 430
+      Q100 400 130 375
+      Q145 325 200 345
+      Q225 300 275 330
+      Q310 350 300 390
+      Q340 420 310 450
+      L150 450 Z"/>
+
+    <!-- Right cloud -->
+    <path d="M500 430
+      Q480 400 510 375
+      Q525 325 580 345
+      Q605 300 655 330
+      Q690 350 680 390
+      Q720 420 690 450
+      L530 450 Z"/>
+
+    <!-- Flowers -->
+    <circle cx="240" cy="560" r="20"/>
+    <circle cx="240" cy="520" r="18"/>
+    <circle cx="200" cy="560" r="18"/>
+    <circle cx="280" cy="560" r="18"/>
+    <circle cx="240" cy="600" r="18"/>
+
+    <path d="M240 580 L240 680" fill="none"/>
+    <path d="M240 640 Q195 605 175 640
+             Q205 675 240 655 Z"/>
+
+    <!-- Second flower -->
+    <circle cx="560" cy="580" r="18"/>
+    <circle cx="560" cy="545" r="16"/>
+    <circle cx="525" cy="580" r="16"/>
+    <circle cx="595" cy="580" r="16"/>
+    <circle cx="560" cy="615" r="16"/>
+
+    <path d="M560 600 L560 680" fill="none"/>
+    <path d="M560 645 Q600 615 620 645
+             Q590 675 560 660 Z"/>
+
+    <!-- Ground -->
+    <path d="M100 690 Q400 660 700 690" fill="none"/>
+
+  </g>
+
+  <text x="400" y="750" text-anchor="middle"
+        font-size="42" font-family="Arial"
+        fill="black">MY RAINBOW GARDEN</text>
+</svg>

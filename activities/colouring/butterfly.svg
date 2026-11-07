@@ -1,0 +1,53 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="white"/>
+
+  <g fill="white" stroke="black" stroke-width="9"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Left wings -->
+    <path d="M390 360
+      C300 180 100 150 100 310
+      C100 410 250 470 390 420 Z"/>
+
+    <path d="M390 430
+      C270 400 130 470 170 590
+      C210 700 340 620 400 480 Z"/>
+
+    <!-- Right wings -->
+    <path d="M410 360
+      C500 180 700 150 700 310
+      C700 410 550 470 410 420 Z"/>
+
+    <path d="M410 430
+      C530 400 670 470 630 590
+      C590 700 460 620 400 480 Z"/>
+
+    <!-- Body -->
+    <ellipse cx="400" cy="430" rx="28" ry="105"/>
+    <circle cx="400" cy="305" r="38"/>
+
+    <!-- Eyes -->
+    <circle cx="385" cy="300" r="5" fill="black"/>
+    <circle cx="415" cy="300" r="5" fill="black"/>
+
+    <!-- Smile -->
+    <path d="M388 320 Q400 333 412 320" fill="none"/>
+
+    <!-- Antennae -->
+    <path d="M385 275 Q340 210 320 230" fill="none"/>
+    <path d="M415 275 Q460 210 480 230" fill="none"/>
+
+    <!-- Wing decorations -->
+    <circle cx="230" cy="320" r="35"/>
+    <circle cx="300" cy="390" r="22"/>
+    <circle cx="245" cy="535" r="32"/>
+    <circle cx="330" cy="550" r="18"/>
+
+    <circle cx="570" cy="320" r="35"/>
+    <circle cx="500" cy="390" r="22"/>
+    <circle cx="555" cy="535" r="32"/>
+    <circle cx="470" cy="550" r="18"/>
+
+  </g>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="white"/>
+
+  <g fill="white" stroke="black" stroke-width="12"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Chimney -->
+    <path d="M200 300 L200 210 L260 210 L260 300 Z"/>
+    <path d="M185 210 L275 210 L275 190 L185 190 Z"/>
+
+    <!-- Steam clouds -->
+    <circle cx="180" cy="150" r="22"/>
+    <circle cx="220" cy="125" r="28"/>
+    <circle cx="260" cy="150" r="22"/>
+
+    <!-- Train engine -->
+    <path d="M120 350 L120 500 L430 500
+      L430 300 L280 300 L280 350 Z"/>
+
+    <!-- Front of engine -->
+    <path d="M430 380 L510 380 L510 500 L430 500 Z"/>
+
+    <!-- Engine window -->
+    <rect x="300" y="340" width="85" height="80" rx="10"/>
+
+    <!-- Headlight -->
+    <circle cx="470" cy="420" r="22"/>
+
+    <!-- Connecting carriage -->
+    <path d="M510 400 L550 400 L550 470 L510 470"/>
+
+    <!-- Passenger carriage -->
+    <rect x="550" y="350" width="170" height="150" rx="12"/>
+
+    <!-- Carriage windows -->
+    <rect x="575" y="375" width="55" height="55" rx="8"/>
+    <rect x="645" y="375" width="55" height="55" rx="8"/>
+
+    <!-- Wheels -->
+    <circle cx="190" cy="530" r="48"/>
+    <circle cx="350" cy="530" r="48"/>
+    <circle cx="600" cy="530" r="48"/>
+    <circle cx="690" cy="530" r="48"/>
+
+    <!-- Wheel centres -->
+    <circle cx="190" cy="530" r="15"/>
+    <circle cx="350" cy="530" r="15"/>
+    <circle cx="600" cy="530" r="15"/>
+    <circle cx="690" cy="530" r="15"/>
+
+    <!-- Railway track -->
+    <path d="M90 590 L730 590" fill="none"/>
+    <path d="M130 610 L170 610 M230 610 L270 610
+      M330 610 L370 610 M430 610 L470 610
+      M530 610 L570 610 M630 610 L670 610"
+      fill="none"/>
+
+  </g>
+
+  <text x="400" y="700" text-anchor="middle"
+        font-size="44" font-family="Arial"
+        fill="black">MY LITTLE TRAIN</text>
+</svg>

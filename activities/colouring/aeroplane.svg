@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="white"/>
+
+  <g fill="white" stroke="black" stroke-width="12"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Main body -->
+    <path d="M100 390
+      Q100 350 150 350
+      L590 350
+      Q690 350 710 400
+      Q690 450 590 450
+      L150 450
+      Q100 450 100 410 Z"/>
+
+    <!-- Nose -->
+    <path d="M650 350 Q750 400 650 450" />
+
+    <!-- Wings -->
+    <path d="M350 350 L470 190
+      Q490 175 515 190
+      L455 350 Z"/>
+
+    <path d="M350 450 L470 610
+      Q490 625 515 610
+      L455 450 Z"/>
+
+    <!-- Tail wings -->
+    <path d="M150 350 L190 270
+      L290 350 Z"/>
+
+    <path d="M150 450 L190 530
+      L290 450 Z"/>
+
+    <!-- Cockpit window -->
+    <path d="M580 365 Q620 365 635 400
+      Q620 435 580 435 Z"/>
+
+    <!-- Passenger windows -->
+    <circle cx="250" cy="400" r="15"/>
+    <circle cx="310" cy="400" r="15"/>
+    <circle cx="370" cy="400" r="15"/>
+    <circle cx="430" cy="400" r="15"/>
+
+  </g>
+
+  <text x="400" y="700" text-anchor="middle"
+        font-size="42" font-family="Arial"
+        fill="black">MY LITTLE AEROPLANE</text>
+</svg>

@@ -1,0 +1,54 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="white"/>
+
+  <g fill="white" stroke="black" stroke-width="11"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Shell -->
+    <path d="M210 430
+      C210 290 300 220 410 220
+      C520 220 610 290 610 430
+      Q410 560 210 430 Z"/>
+
+    <!-- Shell pattern -->
+    <path d="M410 225 L410 505 M300 285 L350 430
+      M520 285 L470 430 M300 430 L250 450
+      M520 430 L570 450" fill="none"/>
+
+    <!-- Head -->
+    <circle cx="665" cy="385" r="75"/>
+
+    <!-- Eyes -->
+    <circle cx="640" cy="365" r="10" fill="black"/>
+    <circle cx="690" cy="365" r="10" fill="black"/>
+
+    <!-- Smile -->
+    <path d="M650 410 Q665 425 680 410" fill="none"/>
+
+    <!-- Legs -->
+    <path d="M270 465 Q190 480 185 550
+      Q185 585 235 575 L290 520 Z"/>
+
+    <path d="M520 465 Q600 480 605 550
+      Q605 585 555 575 L500 520 Z"/>
+
+    <path d="M320 490 Q290 550 320 590
+      Q350 615 385 565 L380 500 Z"/>
+
+    <path d="M450 500 Q445 550 475 590
+      Q505 615 530 565 L510 490 Z"/>
+
+    <!-- Tail -->
+    <path d="M205 420 L145 390 L155 455 Z"/>
+
+    <!-- Feet details -->
+    <path d="M205 550 L225 555 M565 550 L585 555"
+      fill="none"/>
+
+  </g>
+
+  <text x="400" y="700" text-anchor="middle"
+        font-size="40" font-family="Arial"
+        fill="black">MY LITTLE TURTLE</text>
+</svg>

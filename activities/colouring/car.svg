@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="white"/>
+
+  <g fill="white" stroke="black" stroke-width="12"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Car body -->
+    <path d="M130 450 L170 350 Q190 310 250 310
+      L330 210 Q350 190 390 190
+      L520 190 Q550 190 570 220
+      L650 350 L700 390 L700 490
+      L120 490 L120 430 Z"/>
+
+    <!-- Windows -->
+    <path d="M265 315 L345 220 L435 220 L435 315 Z"/>
+    <path d="M460 220 L510 220 Q530 220 545 245
+      L600 315 L460 315 Z"/>
+
+    <!-- Wheels -->
+    <circle cx="250" cy="490" r="65"/>
+    <circle cx="250" cy="490" r="28"/>
+    <circle cx="570" cy="490" r="65"/>
+    <circle cx="570" cy="490" r="28"/>
+
+    <!-- Headlights -->
+    <circle cx="155" cy="400" r="22"/>
+    <circle cx="670" cy="400" r="22"/>
+
+    <!-- Bumper -->
+    <path d="M120 450 L180 450 M640 450 L700 450" fill="none"/>
+
+  </g>
+
+  <text x="400" y="680" text-anchor="middle"
+        font-size="45" font-family="Arial"
+        fill="black">MY LITTLE CAR</text>
+</svg>

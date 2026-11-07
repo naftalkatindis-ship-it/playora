@@ -1,0 +1,55 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="white"/>
+
+  <g fill="white" stroke="black" stroke-width="12"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Ears -->
+    <path d="M300 280
+      C170 160 80 280 120 430
+      C150 540 270 530 330 420 Z"/>
+
+    <path d="M500 280
+      C630 160 720 280 680 430
+      C650 540 530 530 470 420 Z"/>
+
+    <!-- Head -->
+    <path d="M280 270
+      Q400 190 520 270
+      Q590 340 550 480
+      Q520 600 400 600
+      Q280 600 250 480
+      Q210 340 280 270 Z"/>
+
+    <!-- Trunk -->
+    <path d="M400 470
+      C390 550 450 580 420 660
+      Q400 710 350 675
+      Q330 660 350 640"/>
+
+    <!-- Eyes -->
+    <circle cx="340" cy="390" r="12" fill="black"/>
+    <circle cx="460" cy="390" r="12" fill="black"/>
+
+    <!-- Smile -->
+    <path d="M370 455 Q400 480 430 455" fill="none"/>
+
+    <!-- Tusks -->
+    <path d="M300 480 Q270 530 320 525 Q340 515 330 485 Z"/>
+    <path d="M500 480 Q530 530 480 525 Q460 515 470 485 Z"/>
+
+    <!-- Feet -->
+    <path d="M290 580 L290 650 Q290 675 330 675 L355 675"/>
+    <path d="M510 580 L510 650 Q510 675 470 675 L445 675"/>
+
+    <!-- Toe details -->
+    <path d="M300 650 L320 650 M480 650 L500 650"
+          fill="none"/>
+
+  </g>
+
+  <text x="400" y="755" text-anchor="middle"
+        font-size="35" font-family="Arial"
+        fill="black">MY LITTLE ELEPHANT</text>
+</svg>

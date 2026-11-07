@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="white"/>
+
+  <g fill="white" stroke="black" stroke-width="11"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Left flower petals -->
+    <g transform="translate(230 330)">
+      <circle cx="0" cy="-55" r="42"/>
+      <circle cx="52" cy="-15" r="42"/>
+      <circle cx="32" cy="45" r="42"/>
+      <circle cx="-32" cy="45" r="42"/>
+      <circle cx="-52" cy="-15" r="42"/>
+      <circle cx="0" cy="0" r="42"/>
+    </g>
+
+    <!-- Middle flower petals -->
+    <g transform="translate(410 270)">
+      <circle cx="0" cy="-55" r="42"/>
+      <circle cx="52" cy="-15" r="42"/>
+      <circle cx="32" cy="45" r="42"/>
+      <circle cx="-32" cy="45" r="42"/>
+      <circle cx="-52" cy="-15" r="42"/>
+      <circle cx="0" cy="0" r="42"/>
+    </g>
+
+    <!-- Right flower petals -->
+    <g transform="translate(590 340)">
+      <circle cx="0" cy="-55" r="42"/>
+      <circle cx="52" cy="-15" r="42"/>
+      <circle cx="32" cy="45" r="42"/>
+      <circle cx="-32" cy="45" r="42"/>
+      <circle cx="-52" cy="-15" r="42"/>
+      <circle cx="0" cy="0" r="42"/>
+    </g>
+
+    <!-- Flower stems -->
+    <path d="M230 370 L230 620
+             M410 310 L410 620
+             M590 380 L590 620" fill="none"/>
+
+    <!-- Leaves -->
+    <path d="M230 480 Q150 420 130 490
+             Q175 550 230 500 Z"/>
+    <path d="M410 450 Q480 390 510 460
+             Q465 515 410 470 Z"/>
+    <path d="M590 500 Q650 440 680 510
+             Q640 560 590 520 Z"/>
+
+    <!-- Ground -->
+    <path d="M120 640 Q400 610 700 640" fill="none"/>
+
+    <!-- Grass -->
+    <path d="M170 640 L150 605 M190 635 L200 600
+             M500 635 L490 600 M640 640 L660 605"
+          fill="none"/>
+
+  </g>
+
+  <text x="400" y="730" text-anchor="middle"
+        font-size="45" font-family="Arial"
+        fill="black">PRETTY FLOWERS</text>
+</svg>

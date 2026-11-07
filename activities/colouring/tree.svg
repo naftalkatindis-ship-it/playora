@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <rect width="800" height="800" fill="white"/>
+
+  <g fill="white" stroke="black" stroke-width="11"
+     stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- Tree trunk -->
+    <path d="M350 450 L330 650 L470 650 L450 450 Z"/>
+
+    <!-- Tree branches -->
+    <path d="M370 490 L290 400 M430 490 L510 400"
+          fill="none"/>
+
+    <!-- Tree crown -->
+    <circle cx="400" cy="300" r="125"/>
+    <circle cx="285" cy="355" r="85"/>
+    <circle cx="515" cy="355" r="85"/>
+    <circle cx="330" cy="220" r="85"/>
+    <circle cx="470" cy="220" r="85"/>
+    <circle cx="400" cy="150" r="75"/>
+
+    <!-- Face -->
+    <circle cx="365" cy="300" r="9" fill="black"/>
+    <circle cx="435" cy="300" r="9" fill="black"/>
+    <path d="M365 345 Q400 380 435 345" fill="none"/>
+
+    <!-- Grass -->
+    <path d="M180 660 Q400 630 620 660" fill="none"/>
+    <path d="M230 660 L210 630 M250 655 L260 625
+             M550 655 L540 625 M580 660 L600 630"
+          fill="none"/>
+
+  </g>
+
+  <text x="400" y="730" text-anchor="middle"
+        font-size="45" font-family="Arial"
+        fill="black">MY LITTLE TREE</text>
+</svg>
